@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;700&Montserrat:wght@400;700&display=swap');
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+}
+
+header {
+    height: 100vh;
+    background: url('../img/headbg.jpg') center/cover;
+    padding: 40px 50px;
+    position: relative;
+}
+header nav {
+    text-align: center;
+}
+#menu { padding: 20px 0 0 0} 
+#menu a {
+    font: .8em/1.5 Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+#topics {
+    position: absolute;
+    left: 7.5%;
+    bottom: 17vh;
+    text-align: right;
+}
+h1 {
+    font: 2em/1.5 Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h2 { 
+    font: 300 2em 'Open Sans';
+    text-transform: uppercase;
+}
+h3 {
+    font: 400 1.5em 'Open Sans', sans-serif;
+    padding: 20px 0 0 0;
+}
+h4 {
+    font: 400 .9em 'Open Sans';
+    text-align: left;
+    padding: 10px 0 25px 0;
+}
+h5 {
+    font: 1em/2 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 0 60px 0 0
+}
+h6 {
+    font: 400 .9em 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fd634e;
+}
+
+input {
+    font: .8em 'Montserrat';
+    color: #333;
+    border-radius: 2px;
+    border: none;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+button {
+     width: 95%;
+     padding: 15px;
+     border: none;
+     border-radius: 2px;
+     background: #a1c927;
+     font: bold .8em 'Montserrat';
+     color: #fff;
+     margin: 30px 0 0 0;
+}
+::placeholder {
+    color: #83969f;
+}
+
+.inpname { width: 95% }
+.inpemail { width: 95% }
+.col25 { 
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 300px;
+ }
+.col25 i { font-size: 3em }
+.col25 p, .col66 p {
+    font: 0.9em/1.5 'Open Sans';
+    padding: 28px 0;
+}
+.col33 i {
+    padding: 22px 0 0 0;
+    font-size: 2em;
+    color: #e3e9e9;
+}
+.col33 p {
+    font: 400 .9em/1.6 'Open Sans';
+    padding: 22px 0;
+}
+.col33 a {
+    font: 1em 'Open Sans';
+    color: var(--yasil);
+    text-decoration: underline;
+}
+
+.bgyasil { background-color: var(--yasil) }
+.bgqirmizi { background-color: var(--qirmizi) }
+.bgag { background-color: #FFF }
+.bgdarkblue { background-color: #16198f }
+.bgblue { background-color: #2e3092 }
+.bglightblue { background-color: #00adef } 
+.bgred { background-color: #ed3123 }
+.txtyasil { color: var(--yasil) }
+.txtqirmizi { color: var(--qirmizi) }
+.txtag { color: #FFF }
+.txtgray {color: #656e74;}
+
+.actrow { padding: 90px 0; }
+.vh50 { height: 50vh }
+.padding50 { padding: 50px }
+.acenter { text-align: center }
+.pos-rel { position: relative }
+.pos-abs { position: absolute;}
+
+
+
+#fitnessfirst { background: url('../img/fitnessfirst.jpg') center/cover;}
+#yourbody { background: url('../img/yourbody.jpg') center/cover }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover }
+#summeroffun { background: url('../img/summeroffun.jpg') center/cover }
+#grape { background: url('../img/grape.jpg') center/cover }
+#fruit { background: url('../img/fruit.jpg') center/cover }
+#lastdiv {background: url('../img/footer.jpg') center/cover }
+
+#activeuser {
+    bottom: 40px;
+    right: 40px;
+}
+#prodused {
+    bottom: 40px;
+    left: 50px;
+}
+#summeroffun h5{
+    padding: 0;
+    font: 400 .8em Montserrat;
+    letter-spacing: 1px;
+}
+#lastdiv {
+    height: 100vh;
+    text-align: center;
+    padding: 13vh 20px 0 20px;
+}
+#lastdiv h3 { 
+    font: 2em 'Open Sans'; 
+}
+#lastdiv p { 
+    font: 400 1em/1.5 'Open Sans';
+    padding: 40px 20px;
+}
+.imgheadtxg {
+    font: 400 .8em 'Open Sans';
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+footer {
+    background: #0c1119;
+    height: 100vh;
+    padding: 65px 20px;
+}
+.footercol {
+    padding: 0 20px 0 0;
+}
+.social { text-align: left}
+.social i {
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 15px 13px 0 0;
+}
+.social i:first-of-type {
+    padding: 10px 13px;
+}
+.footercol p { 
+    font: 400 .9em/1.5 'Open Sans'; 
+    color: #8297a7;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    header nav { text-align: inherit }
+    #menu { float: right }
+    #menu li { display: inline-block; margin: 0 20px}
+    h1 { font-size: 2.5em }
+    h2 { font-size: 2.3em }
+    button { 
+        min-width: 130px;
+        width: 11.5%;
+    }
+     
+    .container { max-width: 1180px; margin: auto; padding: 0 }
+    .row::after { 
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .fleft { float: left } 
+    .fright { float: right } 
+    .col25 { 
+        text-align: left;
+        width: 25% 
+    }
+    .col40 {width: 40%;}
+    .col33 { width: 33.33% }
+    .col66 { width: 66.66% }
+    .min-height { min-height: 400px;}
+    #lastdiv h3 { font-size: 2.8em; }
+    #lastdiv p { padding: 40px 30%;}
+    .inpname { width: 12.5% }
+    .inpemail { width: 21% }
+    form { text-align: right; }
+}
+@media only screen and (min-width: 769px) and (max-width: 987px) {
+    .vh50 { height: 55vh;}
+}
